@@ -40,7 +40,6 @@
     var constraints = {
         audio: false,
         video: true,
-        facingMode : 'user'
     };
 
     var video = document.querySelector('video');
@@ -48,8 +47,6 @@
     // adaptor.js 사용
     function successCallback(stream) {
         var videoTracks = stream.getVideoTracks();
-        var audioTracks = stream.getAudioTracks();
-        window.stream = stream;
         video.srcObject = stream;
     }
         
