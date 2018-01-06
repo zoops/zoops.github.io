@@ -17,6 +17,7 @@ function successCallback(stream) {
     video.src = window.URL.createObjectURL(stream);
   } else {
     video.src = stream;
+    video.srcObject = stream;
   }
 }
 
