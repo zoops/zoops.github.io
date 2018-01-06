@@ -5,7 +5,8 @@ navigator.getUserMedia = navigator.getUserMedia ||
 
 var constraints = {
   audio: false,
-  video: true
+  video: true,
+  facingMode : 'user'
 };
 
 var video = document.querySelector('video');
