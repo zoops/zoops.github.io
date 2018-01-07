@@ -84,7 +84,11 @@ function onStart() {
         iceServers: [
         ]
     };
-    // cfg.iceServers.push({urls: "stun:stun.l.google.com:19302"});
+    cfg.iceServers.push({urls: "stun:stun.l.google.com:19302"});
+    cfg.iceServers.push({
+        urls: "turn:webrtc.moberan.com",
+        username: "zoops", credential: "1234"
+    });
 
     local_peer = new RTCPeerConnection(cfg);    
     local_peer.onicecandidate = function (evt) {
