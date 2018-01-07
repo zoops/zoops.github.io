@@ -5,8 +5,7 @@ navigator.getUserMedia = navigator.getUserMedia ||
 
 var constraints = {
   audio: false,
-  video: true,
-  facingMode : 'user'
+  video: true
 };
 
 var video = document.querySelector('video');
@@ -17,7 +16,6 @@ function successCallback(stream) {
     video.src = window.URL.createObjectURL(stream);
   } else {
     video.src = stream;
-    video.srcObject = stream;
   }
 }
 

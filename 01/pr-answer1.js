@@ -56,8 +56,22 @@ function start() {
         trace('Using Audio device: ' + audioTracks[0].label);
     }
 
-    var servers = null;
-    local_peer = new RTCPeerConnection(servers);
+    var servers = {
+        iceTransportPolicy: "all", // set to "relay" to force TURN.
+        iceServers: [
+        ]
+    };
+    servers.push({urls: "stun:stun.l.google.com:19302"});
+    servers.push({
+                    urls: "turn:webrtc.moberan.com",
+                    username: "zoops", credential: "1234"
+                });
+
+    var pcConstraints = {
+        'optional': []
+    };
+
+    local_peer = new RTCPeerConnection(servers, pcConstraints);
     local_peer.onicecandidate = function (e) {
         onIceCandidate(local_peer, e);
     };
