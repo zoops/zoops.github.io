@@ -61,8 +61,8 @@ function start() {
         iceServers: [
         ]
     };
-    servers.push({urls: "stun:stun.l.google.com:19302"});
-    servers.push({
+    servers.iceServers.push({urls: "stun:stun.l.google.com:19302"});
+    servers.iceServers.push({
                     urls: "turn:webrtc.moberan.com",
                     username: "zoops", credential: "1234"
                 });
