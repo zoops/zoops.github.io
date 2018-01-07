@@ -8,11 +8,18 @@ var vid2 = document.querySelector('#vid2');
 
 var btn_start = document.querySelector('#btn_start');
 var btn_receiveOffer = document.querySelector('#btn_receiveOffer');
+var btn_createAnswer = document.querySelector('#btn_createAnswer');
+var btn_finalAnswer = document.querySelector('#btn_finalAnswer');
 
 btn_start.addEventListener('click', start);
 btn_receiveOffer.addEventListener('click', test_receiveOffer);
 btn_createAnswer.addEventListener('click', createAnswer);
 btn_finalAnswer.addEventListener('click', test_final_answer);
+
+function trace(arg) {
+    var now = (window.performance.now() / 1000).toFixed(3);
+    console.log(now + ': ', arg);
+}
 
 function test_receiveOffer() {
     var sdpString = input_offerDesc.value;
