@@ -1,5 +1,10 @@
 'use strict';
 
+function trace(arg) {
+    var now = (window.performance.now() / 1000).toFixed(3);
+    console.log(now + ': ', arg);
+}
+
 var input_offerDesc = document.querySelector('textarea#input_offerDesc');
 var output_answerDesc = document.querySelector('textarea#output_answerDesc');
 
@@ -15,11 +20,6 @@ btn_start.addEventListener('click', start);
 btn_receiveOffer.addEventListener('click', test_receiveOffer);
 btn_createAnswer.addEventListener('click', createAnswer);
 btn_finalAnswer.addEventListener('click', test_final_answer);
-
-function trace(arg) {
-    var now = (window.performance.now() / 1000).toFixed(3);
-    console.log(now + ': ', arg);
-}
 
 function test_receiveOffer() {
     var sdpString = input_offerDesc.value;
