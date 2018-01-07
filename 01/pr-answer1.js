@@ -3,11 +3,11 @@
 var output_offerDesc = document.querySelector('textarea#output_offerDesc');
 var input_answerDesc = document.querySelector('textarea#input_answerDesc');
 
-var vid1 = document.getElementById('vid1');
-var vid2 = document.getElementById('vid2');
+var vid1 = document.querySelector('#vid1');
+var vid2 = document.querySelector('#vid2');
 
-var btn_start = document.getElementById('btn_start');
-var btn_receiveAnswer = document.getElementById('btn_receiveAnswer');
+var btn_start = document.querySelector('#btn_start');
+var btn_receiveAnswer = document.querySelector('#btn_receiveAnswer');
 
 btn_start.addEventListener('click', start);
 btn_receiveAnswer.addEventListener('click', test_receiveAnswer);
@@ -62,10 +62,6 @@ function start() {
         ]
     };
     servers.iceServers.push({urls: "stun:stun.l.google.com:19302"});
-    servers.iceServers.push({
-                    urls: "turn:webrtc.moberan.com",
-                    username: "zoops", credential: "1234"
-                });
 
     var pcConstraints = {
         'optional': []

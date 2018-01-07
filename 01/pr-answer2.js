@@ -3,13 +3,11 @@
 var input_offerDesc = document.querySelector('textarea#input_offerDesc');
 var output_answerDesc = document.querySelector('textarea#output_answerDesc');
 
-var vid1 = document.getElementById('vid1');
-var vid2 = document.getElementById('vid2');
+var vid1 = document.querySelector('#vid1');
+var vid2 = document.querySelector('#vid2');
 
-var btn_start = document.getElementById('btn_start');
-var btn_receiveOffer = document.getElementById('btn_receiveOffer');
-var btn_createAnswer = document.getElementById('btn_createAnswer');
-var btn_finalAnswer = document.getElementById('btn_finalAnswer');
+var btn_start = document.querySelector('#btn_start');
+var btn_receiveOffer = document.querySelector('#btn_receiveOffer');
 
 btn_start.addEventListener('click', start);
 btn_receiveOffer.addEventListener('click', test_receiveOffer);
