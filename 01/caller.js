@@ -55,6 +55,10 @@ function onStart() {
         ]
     };
     servers.iceServers.push({urls: "stun:stun.l.google.com:19302"});
+    servers.iceServers.push({
+                                urls: "turn:webrtc.moberan.com",
+                                username: "zoops", credential: "1234"
+                            });
 
     var pcConstraints = {
         'optional': []
