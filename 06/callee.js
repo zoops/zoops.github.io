@@ -16,8 +16,10 @@ btn_start.addEventListener('click', onStart);
 // Value
 var local_peer = null;
 var localstream = null;
-var SIGNAL_SERVER_HTTP_URL = 'http://localhost:3001';
-var SIGNAL_SERVER_WS_URL = 'ws://localhost:3001';
+var SIGNAL_SERVER_HTTP_URL = 'https://zoops-webrtc-01.herokuapp.com';
+var SIGNAL_SERVER_WS_URL = 'wss://zoops-webrtc-01.herokuapp.com';
+// var SIGNAL_SERVER_HTTP_URL = 'http://localhost:3001';
+// var SIGNAL_SERVER_WS_URL = 'ws://localhost:3001';
 // ---------------------------------------------------------------------------------
 function cbGotStream(stream) {
     trace('Received local stream');
