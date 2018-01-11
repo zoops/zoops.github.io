@@ -6,28 +6,20 @@ function trace(arg) {
 }
 
 // UI Element Value
-var input_offerDesc = document.querySelector('textarea#input_offerDesc');
-var output_answerDesc = document.querySelector('textarea#output_answerDesc');
-
 var vid1 = document.querySelector('#vid1');
 var vid2 = document.querySelector('#vid2');
 
 var btn_start = document.querySelector('#btn_start');
-var btn_receiveOffer = document.querySelector('#btn_receiveOffer');
-var btn_finalAnswer = document.querySelector('#btn_finalAnswer');
 
 var input_message = document.querySelector('#message');
-var btn_test = document.querySelector('#btn_test');
+var btn_send = document.querySelector('#btn_send');
 
 var roodId = document.querySelector('#room_id');
 
 btn_start.addEventListener('click', onStart);
-btn_receiveOffer.addEventListener('click', onReceiveOffer);
-btn_finalAnswer.addEventListener('click', onAnswer);
-btn_test.addEventListener('click', onTest);
+btn_send.addEventListener('click', onSend);
 // ---------------------------------------------------------------------------------
-function onTest(){
-    // g_mc_ws_component.sendMessage('test');
+function onSend(){
     sendDataViaDataChannel(input_message.value);
 }
 // ---------------------------------------------------------------------------------
@@ -144,13 +136,6 @@ function sendDataViaDataChannel(data) {
     trace('Sent Data: ' + data);
 }
 
-function onReceiveOffer() {
-    var sdpString = input_offerDesc.value;
-    receiveOffer(sdpString);
-
-    trace('## receiveOffer success');
-}
-
 function onAnswer() {
     createAnswer();
 
@@ -238,7 +223,5 @@ function onCheckIceCandidateAdded(candidateObject) {
 
 function onCheckIceCandidateCompleted(descObject) {
     trace('onCheckIceCandidateCompleted');
-    console.info(descObject);
-    output_answerDesc.value = descObject.sdp;
-    g_mc_ws_component.sendMessage(output_answerDesc.value);
+    g_mc_ws_component.sendMessage(descObject.sdp);
 }
