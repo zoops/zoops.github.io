@@ -8,8 +8,13 @@ function trace(arg) {
 // UI Element Value
 var vid1 = document.querySelector('#vid1');
 var vid2 = document.querySelector('#vid2');
+
+var vid1_nick = document.querySelector('#vid1_nick');
+var vid2_nick = document.querySelector('#vid2_nick');
+
 var btn_start = document.querySelector('#btn_start');
 var roomId = document.querySelector('#room_id');
+var pwd = document.querySelector('#pwd');
 
 btn_start.addEventListener('click', onStart);
 // ---------------------------------------------------------------------------------
@@ -21,6 +26,12 @@ var SIGNAL_SERVER_WS_URL = 'wss://zoops-webrtc-01.herokuapp.com';
 // var SIGNAL_SERVER_HTTP_URL = 'http://localhost:3001';
 // var SIGNAL_SERVER_WS_URL = 'ws://localhost:3001';
 // ---------------------------------------------------------------------------------
+function onChangeNick(){
+    g_mc_ws_component.sendMessage(JSON.stringify({
+        type : '88', nick : vid1_nick.value
+    }));
+}
+
 function cbGotStream(stream) {
     trace('Received local stream');
     vid1.srcObject = stream;
@@ -54,8 +65,18 @@ function onWsMessage(messageEvt) {
     else if (obj.code == '01') {
         // start
         console.info('start in onWsMessage');
+        onChangeNick();
     }
     else if (obj.code == '00') {
+        try {
+            var obj2 = JSON.parse(obj.msg);
+            if (obj2.type = '88') {
+                vid2_nick.value = obj2.nick;
+            }
+            return;
+        } catch (error) {
+            
+        }
         receiveOffer(obj.msg);
     }    
     else {
@@ -64,7 +85,7 @@ function onWsMessage(messageEvt) {
 }
 
 function onStart() {
-    var url = SIGNAL_SERVER_WS_URL + '/room/' + roomId.value;
+    var url = SIGNAL_SERVER_WS_URL + '/room/' + roomId.value + '?pwd=' + pwd.value;
     g_mc_ws_component.connect(url, onWsMessage);
 
     var cfg = {
@@ -181,7 +202,7 @@ var app = new Vue({
     el: '#app',
     data: {
         rooms : [
-        ]
+        ],
     },
     methods: {
       onClickRoom : function (id) {
@@ -193,6 +214,9 @@ var app = new Vue({
           }, response => {
             alert(response);
           });          
+      },
+      onClickChangeNick : function(event) {
+          alert('onClickChangeNick');
       }
     }
   })
