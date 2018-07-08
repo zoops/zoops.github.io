@@ -1,21 +1,21 @@
-{
+ï»¿{
   "result": true,
   "msgCode": "100",
-  "message": "¿äÃ» ÀÛ¾÷ ¼º°ø",
+  "message": "ìš”ì²­ ì‘ì—… ì„±ê³µ",
   "list" : [
     {
-      "titile" : "ÀÎ°ø¼¼Æ÷",
+      "titile" : "ì¸ê³µì„¸í¬",
       "readCnt" : 1000,
       "asocicateWord" : [
-        "¼¼Æ÷", "ÀÎ°ø¼¼Æ÷¸·", "±¤ÇÕ¼º ¼¼±Õ"
+        "ì„¸í¬", "ì¸ê³µì„¸í¬ë§‰", "ê´‘í•©ì„± ì„¸ê· "
       ],
       "researcherCnt" : 245
     },
     {
-      "titile" : "ÀÇ·á ºòµ¥ÀÌÅÍ",
+      "titile" : "ì˜ë£Œ ë¹…ë°ì´í„°",
       "readCnt" : 1001,
       "asocicateWord" : [
-        "Çï½ºÄÉ¾î", "ºòµ¥ÀÌÅÍ", "°Ç°­°ü¸®", "¹ÙÀÌ¿À»ê¾÷"
+        "í—¬ìŠ¤ì¼€ì–´", "ë¹…ë°ì´í„°", "ê±´ê°•ê´€ë¦¬", "ë°”ì´ì˜¤ì‚°ì—…"
       ],
       "researcherCnt" : 345
     },
@@ -23,23 +23,23 @@
       "titile" : "Block Chain",
       "readCnt" : 1002,
       "asocicateWord" : [
-        "BitCoin", "ºòµ¥ÀÌÅÍ", "SCM", "DAPP"
+        "BitCoin", "ë¹…ë°ì´í„°", "SCM", "DAPP"
       ],
       "researcherCnt" : 245
     },
     {
-      "titile" : "ÀÎ°ø¼¼Æ÷",
+      "titile" : "ì¸ê³µì„¸í¬",
       "readCnt" : 1003,
       "asocicateWord" : [
-        "¼¼Æ÷", "ÀÎ°ø¼¼Æ÷¸·", "±¤ÇÕ¼º ¼¼±Õ"
+        "ì„¸í¬", "ì¸ê³µì„¸í¬ë§‰", "ê´‘í•©ì„± ì„¸ê· "
       ],
       "researcherCnt" : 245
     },
     {
-      "titile" : "ÀÇ·á ºòµ¥ÀÌÅÍ",
+      "titile" : "ì˜ë£Œ ë¹…ë°ì´í„°",
       "readCnt" : 1004,
       "asocicateWord" : [
-        "Çï½ºÄÉ¾î", "ºòµ¥ÀÌÅÍ", "°Ç°­°ü¸®", "¹ÙÀÌ¿À»ê¾÷"
+        "í—¬ìŠ¤ì¼€ì–´", "ë¹…ë°ì´í„°", "ê±´ê°•ê´€ë¦¬", "ë°”ì´ì˜¤ì‚°ì—…"
       ],
       "researcherCnt" : 345
     },
@@ -47,23 +47,23 @@
       "titile" : "Block Chain",
       "readCnt" : 1005,
       "asocicateWord" : [
-        "BitCoin", "ºòµ¥ÀÌÅÍ", "SCM", "DAPP"
+        "BitCoin", "ë¹…ë°ì´í„°", "SCM", "DAPP"
       ],
       "researcherCnt" : 245
     },
     {
-      "titile" : "ÀÎ°ø¼¼Æ÷",
+      "titile" : "ì¸ê³µì„¸í¬",
       "readCnt" : 1006,
       "asocicateWord" : [
-        "¼¼Æ÷", "ÀÎ°ø¼¼Æ÷¸·", "±¤ÇÕ¼º ¼¼±Õ"
+        "ì„¸í¬", "ì¸ê³µì„¸í¬ë§‰", "ê´‘í•©ì„± ì„¸ê· "
       ],
       "researcherCnt" : 245
     },
     {
-      "titile" : "ÀÇ·á ºòµ¥ÀÌÅÍ",
+      "titile" : "ì˜ë£Œ ë¹…ë°ì´í„°",
       "readCnt" : 1007,
       "asocicateWord" : [
-        "Çï½ºÄÉ¾î", "ºòµ¥ÀÌÅÍ", "°Ç°­°ü¸®", "¹ÙÀÌ¿À»ê¾÷"
+        "í—¬ìŠ¤ì¼€ì–´", "ë¹…ë°ì´í„°", "ê±´ê°•ê´€ë¦¬", "ë°”ì´ì˜¤ì‚°ì—…"
       ],
       "researcherCnt" : 345
     },
@@ -71,7 +71,7 @@
       "titile" : "Block Chain",
       "readCnt" : 1008,
       "asocicateWord" : [
-        "BitCoin", "ºòµ¥ÀÌÅÍ", "SCM", "DAPP"
+        "BitCoin", "ë¹…ë°ì´í„°", "SCM", "DAPP"
       ],
       "researcherCnt" : 245
     },
