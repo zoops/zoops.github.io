@@ -1,0 +1,79 @@
+{
+  "result": true,
+  "msgCode": "100",
+  "message": "요청 작업 성공",
+  "list" : [
+    {
+      "titile" : "인공세포",
+      "readCnt" : 1000,
+      "asocicateWord" : [
+        "세포", "인공세포막", "광합성 세균"
+      ],
+      "researcherCnt" : 245
+    },
+    {
+      "titile" : "의료 빅데이터",
+      "readCnt" : 1001,
+      "asocicateWord" : [
+        "헬스케어", "빅데이터", "건강관리", "바이오산업"
+      ],
+      "researcherCnt" : 345
+    },
+    {
+      "titile" : "Block Chain",
+      "readCnt" : 1002,
+      "asocicateWord" : [
+        "BitCoin", "빅데이터", "SCM", "DAPP"
+      ],
+      "researcherCnt" : 245
+    },
+    {
+      "titile" : "인공세포",
+      "readCnt" : 1003,
+      "asocicateWord" : [
+        "세포", "인공세포막", "광합성 세균"
+      ],
+      "researcherCnt" : 245
+    },
+    {
+      "titile" : "의료 빅데이터",
+      "readCnt" : 1004,
+      "asocicateWord" : [
+        "헬스케어", "빅데이터", "건강관리", "바이오산업"
+      ],
+      "researcherCnt" : 345
+    },
+    {
+      "titile" : "Block Chain",
+      "readCnt" : 1005,
+      "asocicateWord" : [
+        "BitCoin", "빅데이터", "SCM", "DAPP"
+      ],
+      "researcherCnt" : 245
+    },
+    {
+      "titile" : "인공세포",
+      "readCnt" : 1006,
+      "asocicateWord" : [
+        "세포", "인공세포막", "광합성 세균"
+      ],
+      "researcherCnt" : 245
+    },
+    {
+      "titile" : "의료 빅데이터",
+      "readCnt" : 1007,
+      "asocicateWord" : [
+        "헬스케어", "빅데이터", "건강관리", "바이오산업"
+      ],
+      "researcherCnt" : 345
+    },
+    {
+      "titile" : "Block Chain",
+      "readCnt" : 1008,
+      "asocicateWord" : [
+        "BitCoin", "빅데이터", "SCM", "DAPP"
+      ],
+      "researcherCnt" : 245
+    },
+  ]
+}
