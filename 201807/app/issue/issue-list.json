@@ -4,7 +4,7 @@
   "message": "요청 작업 성공",
   "list" : [
     {
-      "titile" : "인공세포",
+      "title" : "인공세포",
       "readCnt" : 1000,
       "cat" : "바이오",
       "asocicateWord" : [
@@ -13,7 +13,7 @@
       "researcherCnt" : 245
     },
     {
-      "titile" : "의료 빅데이터",
+      "title" : "의료 빅데이터",
       "readCnt" : 1001,
       "cat" : "의학",
       "asocicateWord" : [
@@ -22,7 +22,7 @@
       "researcherCnt" : 345
     },
     {
-      "titile" : "Block Chain",
+      "title" : "Block Chain",
       "readCnt" : 1002,
       "cat" : "공학",
       "asocicateWord" : [
@@ -31,7 +31,7 @@
       "researcherCnt" : 245
     },
     {
-      "titile" : "인공세포",
+      "title" : "인공세포",
       "readCnt" : 1003,
       "cat" : "바이오",
       "asocicateWord" : [
@@ -40,7 +40,7 @@
       "researcherCnt" : 245
     },
     {
-      "titile" : "의료 빅데이터",
+      "title" : "의료 빅데이터",
       "readCnt" : 1004,
       "cat" : "의학",
       "asocicateWord" : [
@@ -49,7 +49,7 @@
       "researcherCnt" : 345
     },
     {
-      "titile" : "Block Chain",
+      "title" : "Block Chain",
       "readCnt" : 1005,
       "cat" : "공학",
       "asocicateWord" : [
@@ -58,7 +58,7 @@
       "researcherCnt" : 245
     },
     {
-      "titile" : "인공세포",
+      "title" : "인공세포",
       "readCnt" : 1003,
       "cat" : "바이오",
       "asocicateWord" : [
@@ -67,7 +67,7 @@
       "researcherCnt" : 245
     },
     {
-      "titile" : "의료 빅데이터",
+      "title" : "의료 빅데이터",
       "readCnt" : 1004,
       "cat" : "의학",
       "asocicateWord" : [
@@ -76,7 +76,7 @@
       "researcherCnt" : 345
     },
     {
-      "titile" : "Block Chain",
+      "title" : "Block Chain",
       "readCnt" : 1005,
       "cat" : "공학",
       "asocicateWord" : [
@@ -85,7 +85,7 @@
       "researcherCnt" : 245
     },
     {
-      "titile" : "인공세포",
+      "title" : "인공세포",
       "readCnt" : 1003,
       "cat" : "바이오",
       "asocicateWord" : [
@@ -94,7 +94,7 @@
       "researcherCnt" : 245
     },
     {
-      "titile" : "의료 빅데이터",
+      "title" : "의료 빅데이터",
       "readCnt" : 1004,
       "cat" : "의학",
       "asocicateWord" : [
@@ -103,7 +103,7 @@
       "researcherCnt" : 345
     },
     {
-      "titile" : "Block Chain",
+      "title" : "Block Chain",
       "readCnt" : 1005,
       "cat" : "공학",
       "asocicateWord" : [
@@ -112,7 +112,7 @@
       "researcherCnt" : 245
     },
     {
-      "titile" : "인공세포",
+      "title" : "인공세포",
       "readCnt" : 1003,
       "cat" : "바이오",
       "asocicateWord" : [
@@ -121,7 +121,7 @@
       "researcherCnt" : 245
     },
     {
-      "titile" : "의료 빅데이터",
+      "title" : "의료 빅데이터",
       "readCnt" : 1004,
       "cat" : "의학",
       "asocicateWord" : [
@@ -130,7 +130,7 @@
       "researcherCnt" : 345
     },
     {
-      "titile" : "Block Chain",
+      "title" : "Block Chain",
       "readCnt" : 1005,
       "cat" : "공학",
       "asocicateWord" : [
@@ -139,7 +139,7 @@
       "researcherCnt" : 245
     },        
     {
-      "titile" : "인공세포",
+      "title" : "인공세포",
       "readCnt" : 1006,
       "cat" : "바이오",
       "asocicateWord" : [
@@ -148,7 +148,7 @@
       "researcherCnt" : 245
     },
     {
-      "titile" : "의료 빅데이터",
+      "title" : "의료 빅데이터",
       "readCnt" : 1007,
       "cat" : "의학",
       "asocicateWord" : [
@@ -157,7 +157,7 @@
       "researcherCnt" : 345
     },
     {
-      "titile" : "Block Chain",
+      "title" : "Block Chain",
       "readCnt" : 1008,
       "cat" : "공학",
       "asocicateWord" : [
