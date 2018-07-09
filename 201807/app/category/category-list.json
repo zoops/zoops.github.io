@@ -7,6 +7,7 @@
       "title" : "인공세포",
       "readCnt" : 1000,
       "cat" : "바이오",
+      "catIconUrl" : "https://zoops.github.io/201807/images/bio.png",
       "asocicateWord" : [
         "세포", "인공세포막", "광합성 세균"
       ],
@@ -16,6 +17,7 @@
       "title" : "의료 빅데이터",
       "readCnt" : 1001,
       "cat" : "의학",
+      "catIconUrl" : "https://zoops.github.io/201807/images/med.png",
       "asocicateWord" : [
         "헬스케어", "빅데이터", "건강관리", "바이오산업"
       ],
@@ -25,6 +27,7 @@
       "title" : "Block Chain",
       "readCnt" : 1002,
       "cat" : "공학",
+      "catIconUrl" : "https://zoops.github.io/201807/images/engine.png",
       "asocicateWord" : [
         "BitCoin", "빅데이터", "SCM", "DAPP"
       ],
@@ -34,6 +37,7 @@
       "title" : "인공세포",
       "readCnt" : 1003,
       "cat" : "바이오",
+      "catIconUrl" : "https://zoops.github.io/201807/images/bio.png",
       "asocicateWord" : [
         "세포", "인공세포막", "광합성 세균"
       ],
